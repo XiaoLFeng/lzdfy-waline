@@ -1,8 +1,7 @@
-const Application = require('@waline/vercel');
+const Waline = require('@waline/vercel');
 
 module.exports = Waline({
   forbiddenWords: ['习近平', '毛泽东'],
-
 });
 
 new Waline({
@@ -37,5 +36,3 @@ new Waline({
     // ... 更多表情
   },
 });
-
-
