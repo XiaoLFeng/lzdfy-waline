@@ -1,6 +1,5 @@
 const Waline = require('@waline/vercel');
 
 module.exports = Waline({
-  forbiddenWords: ['习近平', '毛泽东'],
-  avatarCDN: ['https://gravatar.loli.net/avatar/'],
+  forbiddenWords: ['习近平', '毛泽东','礼品购买','代发','价格实惠','物流'],
 });
